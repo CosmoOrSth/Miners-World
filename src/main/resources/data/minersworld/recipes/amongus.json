@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "DWS",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minersworld:amongus_body"
+        },
+        "S": {
+            "item": "minersworld:amongus_oxygen_tank"
+        },
+        "D": {
+            "item": "minersworld:amongus_visor"
+        }
+    },
+    "result": {
+        "item": "minersworld:amongus",
+        "count": 1
+    }
+}

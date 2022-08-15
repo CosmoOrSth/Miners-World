@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "minersworld",
+  "version": "${version}",
+
+  "name": "Miner's World",
+  "description": "Adds to the game whatever the hell I, the author, want it to.",
+  "authors": [
+    "CosmoOrSth"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/CosmoOrSth/Miners-World"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/minersworld/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.arcteam.arcmods.MinersWorld"
+    ]
+  },
+  "mixins": [
+    "minersworld.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
