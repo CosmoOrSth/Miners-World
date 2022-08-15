@@ -3,6 +3,7 @@ package net.arcteam.arcmods;
 import net.arcteam.arcmods.blocks.OreBlocks;
 import net.arcteam.arcmods.items.AmongusItems;
 import net.arcteam.arcmods.worldGeneration.AmongusOre;
+import net.arcteam.arcmods.worldGeneration.DeepslateAmongusOre;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -28,6 +29,7 @@ public class MinersWorld implements ModInitializer {
 		AmongusItems.register();
 		OreBlocks.register();
 		AmongusOre.register();
+		DeepslateAmongusOre.register();
 
 	}
 }
