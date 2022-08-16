@@ -1,19 +1,25 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "   ",
-        "DWS",
-        "   "
+        "DA ",
+        " WS",
+        " Q "
     ],
     "key": {
         "W": {
-            "item": "minersworld:amongus_body"
+            "item": "minersworld:amongus_torso"
         },
         "S": {
             "item": "minersworld:amongus_oxygen_tank"
         },
         "D": {
             "item": "minersworld:amongus_visor"
+        },
+        "A": {
+            "item": "minersworld:amongus_head"
+        },
+        "Q": {
+            "item": "minersworld:amongus_legs"
         }
     },
     "result": {

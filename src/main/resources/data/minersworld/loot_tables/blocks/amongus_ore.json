@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minersworld:amongus_body"
+            "name": "minersworld:amongus_torso"
           },
           {
             "type": "minecraft:item",
@@ -15,6 +15,14 @@
           {
             "type": "minecraft:item",
             "name": "minersworld:amongus_visor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minersworld:amongus_head"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minersworld:amongus_legs"
           }
         ],
         "conditions": [

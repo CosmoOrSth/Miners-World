@@ -19,16 +19,20 @@ public class AmongusItems {
     .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20*300, 3), 1.0f )
     .build()));
 
-    public static final Item AMONGUS_BODY = new Item(new FabricItemSettings().group(MinersWorld.MINERS_WORLD));
+    public static final Item AMONGUS_TORSO = new Item(new FabricItemSettings().group(MinersWorld.MINERS_WORLD));
     public static final Item AMONGUS_OXYGEN_TANK = new Item(new FabricItemSettings().group(MinersWorld.MINERS_WORLD));
     public static final Item AMONGUS_VISOR = new Item(new FabricItemSettings().group(MinersWorld.MINERS_WORLD));
+    public static final Item AMONGUS_HEAD = new Item(new FabricItemSettings().group(MinersWorld.MINERS_WORLD));
+    public static final Item AMONGUS_LEGS = new Item(new FabricItemSettings().group(MinersWorld.MINERS_WORLD));
  
     public static void register() {
 
         Registry.register(Registry.ITEM, new Identifier("minersworld", "amongus"), AMONGUS);
-        Registry.register(Registry.ITEM, new Identifier("minersworld", "amongus_body"), AMONGUS_BODY);
+        Registry.register(Registry.ITEM, new Identifier("minersworld", "amongus_torso"), AMONGUS_TORSO);
         Registry.register(Registry.ITEM, new Identifier("minersworld", "amongus_oxygen_tank"), AMONGUS_OXYGEN_TANK);
         Registry.register(Registry.ITEM, new Identifier("minersworld", "amongus_visor"), AMONGUS_VISOR);
+        Registry.register(Registry.ITEM, new Identifier("minersworld", "amongus_head"), AMONGUS_HEAD);
+        Registry.register(Registry.ITEM, new Identifier("minersworld", "amongus_legs"), AMONGUS_LEGS);
         
     }
     

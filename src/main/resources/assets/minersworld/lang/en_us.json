@@ -2,7 +2,9 @@
     "item.minersworld.amongus": "Amongus",
     "item.minersworld.amongus_visor": "Amongus Visor",
     "item.minersworld.amongus_oxygen_tank": "Amongus Oxygen Tank",
-    "item.minersworld.amongus_body": "Amongus Body",
+    "item.minersworld.amongus_torso": "Amongus Torso",
+    "item.minersworld.amongus_head": "Amongus Head",
+    "item.minersworld.amongus_legs": "Amongus Legs",
 
     "block.minersworld.amongus_ore": "Amongus Ore",
     "block.minersworld.deepslate_amongus_ore": "Deepslate Amongus Ore",
