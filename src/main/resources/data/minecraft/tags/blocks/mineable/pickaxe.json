@@ -2,6 +2,8 @@
     "replace": "false",
     "values": [
         "minersworld:amongus_ore",
-        "minersworld:deepslate_amongus_ore"
+        "minersworld:deepslate_amongus_ore",
+        "minersworld:italy_ore",
+        "minersworld:deepslate_italy_ore"
     ]
 }
