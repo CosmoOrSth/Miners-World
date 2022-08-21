@@ -22,29 +22,29 @@ import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
 import net.minecraft.world.gen.placementmodifier.SquarePlacementModifier;
 
 public class ItalyOre {
-
+    
     private static ConfiguredFeature<?, ?> ORE_CONFIGURED_FEATURE = new ConfiguredFeature(
-		Feature.ORE, new OreFeatureConfig(
+        Feature.ORE, new OreFeatureConfig(
 			OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
 			OreBlocks.ITALY_ORE.getDefaultState(),
-			2)); // vein size
- 
-            public static PlacedFeature ORE_PLACED_FEATURE = new PlacedFeature(
-                RegistryEntry.of(ORE_CONFIGURED_FEATURE),
-                Arrays.asList(
-                    CountPlacementModifier.of(1), // number of veins per chunk
-                    SquarePlacementModifier.of(), // spreading horizontally
-                    HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(19))
-                )); // height
+			5)); // vein size
+	
+    public static PlacedFeature ORE_PLACED_FEATURE = new PlacedFeature(
+		RegistryEntry.of(ORE_CONFIGURED_FEATURE),
+		Arrays.asList(
+			CountPlacementModifier.of(5), // number of veins per chunk
+			SquarePlacementModifier.of(), // spreading horizontally
+			HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(35))
+		)); // height
 
     public static void register() {
 
-            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
-            new Identifier("minersworld", "italy_ore"), ORE_CONFIGURED_FEATURE);
-            Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier("minersworld", "italy_ore"),
-                ORE_PLACED_FEATURE);
-            BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
-                RegistryKey.of(Registry.PLACED_FEATURE_KEY,
-                    new Identifier("minersworld", "italy_ore")));
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
+        new Identifier("minersworld", "italy_ore"), ORE_CONFIGURED_FEATURE);
+    	Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier("minersworld", "italy_ore"),
+        	ORE_PLACED_FEATURE);
+    	BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,
+        	RegistryKey.of(Registry.PLACED_FEATURE_KEY,
+            	new Identifier("minersworld", "italy_ore")));
     }
 }
