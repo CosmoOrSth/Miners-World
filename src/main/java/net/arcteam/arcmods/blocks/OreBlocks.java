@@ -14,8 +14,8 @@ public class OreBlocks{
     public static final Block AMONGUS_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool());
     public static final Block DEEPSLATE_AMONGUS_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool());
 
-    public static final Block ITALY_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool());
-    public static final Block DEEPSLATE_ITALY_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool());
+    public static final Block RADIUM_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool());
+    public static final Block DEEPSLATE_RADIUM_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool());
 
     public static void register() {
 
@@ -24,16 +24,16 @@ public class OreBlocks{
         Registry.register(Registry.BLOCK, new Identifier("minersworld", "amongus_ore"), AMONGUS_ORE);
         Registry.register(Registry.BLOCK, new Identifier("minersworld", "deepslate_amongus_ore"), DEEPSLATE_AMONGUS_ORE);
 
-        Registry.register(Registry.BLOCK, new Identifier("minersworld", "italy_ore"), ITALY_ORE);
-        Registry.register(Registry.BLOCK, new Identifier("minersworld", "deepslate_italy_ore"), DEEPSLATE_ITALY_ORE);
+        Registry.register(Registry.BLOCK, new Identifier("minersworld", "radium_ore"), RADIUM_ORE);
+        Registry.register(Registry.BLOCK, new Identifier("minersworld", "deepslate_radium_ore"), DEEPSLATE_RADIUM_ORE);
 
         //blockitems
 
         Registry.register(Registry.ITEM, new Identifier("minersworld", "amongus_ore"), new BlockItem(AMONGUS_ORE, new FabricItemSettings().group(MinersWorld.MINERS_WORLD)));
         Registry.register(Registry.ITEM, new Identifier("minersworld", "deepslate_amongus_ore"), new BlockItem(DEEPSLATE_AMONGUS_ORE, new FabricItemSettings().group(MinersWorld.MINERS_WORLD)));
 
-        Registry.register(Registry.ITEM, new Identifier("minersworld", "italy_ore"), new BlockItem(ITALY_ORE, new FabricItemSettings().group(MinersWorld.MINERS_WORLD)));
-        Registry.register(Registry.ITEM, new Identifier("minersworld", "deepslate_italy_ore"), new BlockItem(DEEPSLATE_ITALY_ORE, new FabricItemSettings().group(MinersWorld.MINERS_WORLD)));
+        Registry.register(Registry.ITEM, new Identifier("minersworld", "radium_ore"), new BlockItem(RADIUM_ORE, new FabricItemSettings().group(MinersWorld.MINERS_WORLD)));
+        Registry.register(Registry.ITEM, new Identifier("minersworld", "deepslate_radium_ore"), new BlockItem(DEEPSLATE_RADIUM_ORE, new FabricItemSettings().group(MinersWorld.MINERS_WORLD)));
 
     }
     

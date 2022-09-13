@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-      "all": "minersworld:block/italy_ore"
+      "all": "minersworld:block/deepslate_radium_ore"
     }
   }

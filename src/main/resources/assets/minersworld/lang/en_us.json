@@ -5,12 +5,12 @@
     "item.minersworld.amongus_torso": "Amongus Torso",
     "item.minersworld.amongus_head": "Amongus Head",
     "item.minersworld.amongus_legs": "Amongus Legs",
-    "item.minersworld.italy": "Italy",
+    "item.minersworld.crude_radium": "Crude Radium",
 
     "block.minersworld.amongus_ore": "Amongus Ore",
     "block.minersworld.deepslate_amongus_ore": "Deepslate Amongus Ore",
-    "block.minersworld.italy_ore": "Italy Ore",
-    "block.minersworld.deepslate_italy_ore": "Deepslate Italy Ore",
+    "block.minersworld.radium_ore": "Radium Ore",
+    "block.minersworld.deepslate_radium_ore": "Deepslate Radium Ore",
     
     "itemGroup.minersworld.miners_world": "Miner's World"
     
