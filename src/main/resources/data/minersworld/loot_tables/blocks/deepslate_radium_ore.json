@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minersworld:italy"
+            "name": "minersworld:crude_radium"
           }
         ],
         "conditions": [

@@ -1,8 +1,6 @@
 {
     "replace": "false",
     "values": [
-        "minersworld:amongus_ore",
-        "minersworld:deepslate_amongus_ore",
         "minersworld:radium_ore",
         "minersworld:deepslate_radium_ore"
     ]

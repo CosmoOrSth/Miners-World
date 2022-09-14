@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "minersworld:crude_radium"
+    },
+    "result": "minersworld:radium_ingot",
+    "experience": 20,
+    "cookingtime": 200
+  }

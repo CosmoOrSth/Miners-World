@@ -5,6 +5,8 @@ import net.arcteam.arcmods.items.AmongusItems;
 import net.arcteam.arcmods.items.RadiumItems;
 import net.arcteam.arcmods.worldGeneration.AmongusOre;
 import net.arcteam.arcmods.worldGeneration.DeepslateAmongusOre;
+import net.arcteam.arcmods.worldGeneration.DeepslateRadiumOre;
+import net.arcteam.arcmods.worldGeneration.RadiumOre;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -32,6 +34,8 @@ public class MinersWorld implements ModInitializer {
 		OreBlocks.register();
 		AmongusOre.register();
 		DeepslateAmongusOre.register();
+		RadiumOre.register();
+		DeepslateRadiumOre.register();
 
 	}
 }

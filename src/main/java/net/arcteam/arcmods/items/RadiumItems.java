@@ -9,10 +9,12 @@ import net.minecraft.util.registry.Registry;
 public class RadiumItems {
 
     public static final Item CRUDE_RADIUM = new Item(new FabricItemSettings().group(MinersWorld.MINERS_WORLD));
+    public static final Item RADIUM_INGOT = new Item(new FabricItemSettings().group(MinersWorld.MINERS_WORLD));
 
     public static void register() {
 
         Registry.register(Registry.ITEM, new Identifier("minersworld", "crude_radium"), CRUDE_RADIUM);
+        Registry.register(Registry.ITEM, new Identifier("minersworld", "radium_ingot"), RADIUM_INGOT);
         
     }
     
