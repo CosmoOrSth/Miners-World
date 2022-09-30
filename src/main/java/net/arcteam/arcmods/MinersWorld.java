@@ -3,6 +3,8 @@ package net.arcteam.arcmods;
 import net.arcteam.arcmods.blocks.OreBlocks;
 import net.arcteam.arcmods.items.AmongusItems;
 import net.arcteam.arcmods.items.RadiumItems;
+import net.arcteam.arcmods.statusEffects.StatusEffectsRegistration;
+import net.arcteam.arcmods.toolItems.RadiumToolItems;
 import net.arcteam.arcmods.worldGeneration.AmongusOre;
 import net.arcteam.arcmods.worldGeneration.DeepslateAmongusOre;
 import net.arcteam.arcmods.worldGeneration.DeepslateRadiumOre;
@@ -36,6 +38,8 @@ public class MinersWorld implements ModInitializer {
 		DeepslateAmongusOre.register();
 		RadiumOre.register();
 		DeepslateRadiumOre.register();
+		RadiumToolItems.register();
+		StatusEffectsRegistration.register();
 
 	}
 }

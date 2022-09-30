@@ -8,10 +8,18 @@
     "item.minersworld.crude_radium": "Crude Radium",
     "item.minersworld.radium_ingot": "Radium Ingot",
 
+    "item.minersworld.radium_sword": "Radium Sword",
+    "item.minersworld.radium_pickaxe": "Radium Pickaxe",
+    "item.minersworld.radium_axe": "Radium Axe",
+    "item.minersworld.radium_shovel": "Radium Shovel",
+    "item.minersworld.radium_hoe": "Radium Hoe",
+
     "block.minersworld.amongus_ore": "Amongus Ore",
     "block.minersworld.deepslate_amongus_ore": "Deepslate Amongus Ore",
     "block.minersworld.radium_ore": "Radium Ore",
     "block.minersworld.deepslate_radium_ore": "Deepslate Radium Ore",
+
+    "effect.minersworld.radiation_poisoning": "Radiation Poisoning",
     
     "itemGroup.minersworld.miners_world": "Miner's World"
     
