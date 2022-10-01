@@ -2,7 +2,6 @@ package net.arcteam.arcmods.statusEffects.effectClasses;
 
 import net.arcteam.arcmods.damageSources.RadiationDamageSource;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 

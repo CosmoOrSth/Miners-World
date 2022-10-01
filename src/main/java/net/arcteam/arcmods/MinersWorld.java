@@ -1,5 +1,6 @@
 package net.arcteam.arcmods;
 
+import net.arcteam.arcmods.armorItems.RadiumArmorItems;
 import net.arcteam.arcmods.blocks.OreBlocks;
 import net.arcteam.arcmods.items.AmongusItems;
 import net.arcteam.arcmods.items.RadiumItems;
@@ -40,6 +41,7 @@ public class MinersWorld implements ModInitializer {
 		DeepslateRadiumOre.register();
 		RadiumToolItems.register();
 		StatusEffectsRegistration.register();
+		RadiumArmorItems.register();
 
 	}
 }
