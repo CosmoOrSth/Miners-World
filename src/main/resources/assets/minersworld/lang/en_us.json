@@ -20,6 +20,8 @@
     "block.minersworld.deepslate_radium_ore": "Deepslate Radium Ore",
 
     "effect.minersworld.radiation_poisoning": "Radiation Poisoning",
+
+    "death.attack.radiation": "%1$s's children will not be normal",
     
     "itemGroup.minersworld.miners_world": "Miner's World"
     
