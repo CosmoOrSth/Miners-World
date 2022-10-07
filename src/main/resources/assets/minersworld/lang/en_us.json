@@ -22,6 +22,7 @@
     "effect.minersworld.radiation_poisoning": "Radiation Poisoning",
 
     "death.attack.radiation": "%1$s's children will not be normal.",
+    "death.attack.radiation.player": "%1$s's children will not be normal.",
     
     "itemGroup.minersworld.miners_world": "Miner's World"
     

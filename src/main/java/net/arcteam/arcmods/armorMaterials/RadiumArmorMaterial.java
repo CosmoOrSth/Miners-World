@@ -34,7 +34,7 @@ public class RadiumArmorMaterial implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return "Radium";
+        return "radium";
     }
 
     @Override
